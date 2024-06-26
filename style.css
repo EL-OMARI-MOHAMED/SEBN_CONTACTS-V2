@@ -1,0 +1,95 @@
+
+        
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 90%;
+    max-width: 1400px; /* Increased max-width */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.search-bar input[type="number"] {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+.search-bar button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+.machine-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjusted spacing */
+    margin-top: 20px;
+}
+.machine {
+    width: 100%;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+.machineX {
+    display: flex;
+    justify-content: flex-start; /* Align items to the start */
+    padding: 10px;
+}
+.machine h2 {
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+}
+table {
+    width: 31%; /* Adjusted width to fit three tables side by side */
+    border-collapse: collapse;
+    margin: 0.5%; /* Added margin for spacing */
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+th {
+    background-color: #f7f7f7;
+}
+.highlight {
+    background-color: red;
+    color: white;
+}
